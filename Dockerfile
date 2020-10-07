@@ -3,7 +3,7 @@ FROM tomcat:9
 MAINTAINER github.com/8osman
 
 #install dependencies
-RUN apt-get update && apt-get install python3.pip
+#RUN apt-get update && apt-get install python3.pip
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
 
